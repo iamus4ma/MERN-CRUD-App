@@ -18,6 +18,7 @@ button {
   height: 40px;
   font-size: 20px;
   margin: 5px;
+  cursor: pointer;
 }
 
 .card {

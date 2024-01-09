@@ -7,7 +7,7 @@ function App() {
   const [newFood, setNewFood] = useState("");
   const [days, setDays] = useState(0);
   const [foodList, setFoodList] = useState([]);
-//new comment
+
   useEffect(() => {
     Axios.get("http://localhost:3001/read").then((response) => {
       setFoodList(response.data);
